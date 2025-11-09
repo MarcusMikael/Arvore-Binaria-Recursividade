@@ -61,20 +61,23 @@ public class Main {
         System.out.println();
     }
 }
+```
 🖼️ Saída (Pré-Ordem):
 <img width="1309" height="830" alt="Pré-ordem" src="https://github.com/user-attachments/assets/32d22247-b766-4896-a2ba-072b25b001e5" />
-
+```java
 // Em-Ordem
 System.out.print("Em ordem: ");
 arvore.emOrdem(arvore.raiz);
 System.out.println();
+```
 🖼️ Saída (Em-Ordem):
 <img width="1309" height="830" alt="Em ordem" src="https://github.com/user-attachments/assets/d41d0e8b-b0a7-4a68-8c66-31970a20be7b" />
-
+```java
 // Pós-Ordem
 System.out.print("Pos-ordem: ");
 arvore.posOrdem(arvore.raiz);
 System.out.println();
+```
 🖼️ Saída (Pós-Ordem):
 <img width="1309" height="830" alt="Pós-ordem" src="https://github.com/user-attachments/assets/6a854836-77c3-4cf9-b0d7-53c9bc874441" />
 
