@@ -7,17 +7,19 @@ Implementação de uma **Árvore Binária de Busca (Binary Search Tree)** em Jav
 ## 🧠 Conceitos
 
 ### 🔹 O que é recursividade?
- É um objeto que se define em sí próprio, ou seja uma função que chama ela mesma repetidamente ate a sua resolução(final).
+É um objeto que se define em si próprio, ou seja, uma função que chama ela mesma repetidamente até a sua resolução (final).
 
 ---
 
 ### 🔹 Como a recursividade é usada em uma árvore binária?
-Na arvore binaria, cada nó possui dois filhos, com isso, para percorrer todos esses nós se usa a recursividade, pois cada subárvore é, por si só, uma arvore binaria.
+Na árvore binária, cada nó possui dois filhos.  
+Com isso, para percorrer todos esses nós se usa a recursividade, pois cada subárvore é, por si só, uma árvore binária.
 
 ---
 
 ### 🔹 Diferença entre recursão e laço (for/while)
-A recursão possui uma estrutura de dados embutida nela, coisa que o loop(for/while) não tem. Ou seja, para cada chamada da função à uma copia separada de cada uma das variáveis, e o loop(for/while) tem que criar uma estrutura auxiliar, como uma pilha.
+A recursão possui uma estrutura de dados embutida nela, coisa que o loop (`for`/`while`) não tem.  
+Ou seja, para cada chamada da função há uma cópia separada de cada uma das variáveis, e o loop (`for`/`while`) tem que criar uma estrutura auxiliar, como uma pilha.
 
 ---
 
@@ -32,7 +34,9 @@ src/
 
 ## 🧩 Implementação
 
-Main.java
+### **Main.java**
+
+```java
 public class Main {
     public static void main(String[] args) {
         ArvoreBinaria arvore = new ArvoreBinaria();
@@ -46,29 +50,32 @@ public class Main {
         arvore.inserir(4);
         arvore.inserir(7);
 
-        System.out.println("Buscar o numero 10: " + arvore.buscar(10)); // Tem que retorna true.
-        System.out.println("Buscar o numero 9: " + arvore.buscar(9)); // Vai retorna false, pois não existe esse valor.
+        System.out.println("Buscar o numero 10: " + arvore.buscar(10)); // Tem que retornar true.
+        System.out.println("Buscar o numero 9: " + arvore.buscar(9));   // Vai retornar false, pois não existe esse valor.
 
         // Pré-Ordem
         System.out.print("Pre-ordem: ");
         arvore.preOrdem(arvore.raiz);
         System.out.println();
---Saída:
-        <img width="1309" height="830" alt="Pré-ordem" src="https://github.com/user-attachments/assets/32d22247-b766-4896-a2ba-072b25b001e5" />
-
-        // Em-Ordem
-        System.out.print("Em ordem: ");
-        arvore.emOrdem(arvore.raiz);
-        System.out.println();
---Saída:
-        <img width="1309" height="830" alt="Em ordem" src="https://github.com/user-attachments/assets/d41d0e8b-b0a7-4a68-8c66-31970a20be7b" />
-
-        // Pós-Ordem
-        System.out.print("Pos-ordem: ");
-        arvore.posOrdem(arvore.raiz);
-        System.out.println();
---Saída:
-        <img width="1309" height="830" alt="Pós-ordem" src="https://github.com/user-attachments/assets/6a854836-77c3-4cf9-b0d7-53c9bc874441" />
-
     }
 }
+Saída (Pré-Ordem):
+<img width="1309" height="830" alt="Pré-ordem" src="https://github.com/user-attachments/assets/32d22247-b766-4896-a2ba-072b25b001e5" />
+
+// Em-Ordem
+System.out.print("Em ordem: ");
+arvore.emOrdem(arvore.raiz);
+System.out.println();
+Saída (Em-Ordem):
+<img width="1309" height="830" alt="Em ordem" src="https://github.com/user-attachments/assets/d41d0e8b-b0a7-4a68-8c66-31970a20be7b" />
+
+
+// Pós-Ordem
+System.out.print("Pos-ordem: ");
+arvore.posOrdem(arvore.raiz);
+System.out.println();
+Saída (Pós-Ordem):
+<img width="1309" height="830" alt="Pós-ordem" src="https://github.com/user-attachments/assets/6a854836-77c3-4cf9-b0d7-53c9bc874441" />
+
+✍️ Autor
+Marcus Mikael Rodrigues 
