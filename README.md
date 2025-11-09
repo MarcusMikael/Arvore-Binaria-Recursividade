@@ -12,8 +12,7 @@ Implementação de uma **Árvore Binária de Busca (Binary Search Tree)** em Jav
 ---
 
 ### 🔹 Como a recursividade é usada em uma árvore binária?
-Na árvore binária, cada nó possui dois filhos.  
-Com isso, para percorrer todos esses nós se usa a recursividade, pois cada subárvore é, por si só, uma árvore binária.
+Na árvore binária, cada nó possui dois filhos, com isso, para percorrer todos esses nós se usa a recursividade, pois cada subárvore é, por si só, uma árvore binária.
 
 ---
 
@@ -29,6 +28,9 @@ src/
 ├── Node.java
 ├── ArvoreBinaria.java
 └── Main.java
+
+csharp
+Copiar código
 
 ---
 
@@ -59,23 +61,21 @@ public class Main {
         System.out.println();
     }
 }
---Saída (Pré-Ordem):
-<img width="1309" height="830" alt="Pré-ordem" src="https://github.com/user-attachments/assets/fa67a284-0ebf-41ee-b594-ad4352c85df8" />
-
+🖼️ Saída (Pré-Ordem):
+<img width="1309" height="830" alt="Pré-ordem" src="https://github.com/user-attachments/assets/32d22247-b766-4896-a2ba-072b25b001e5" />
 
 // Em-Ordem
 System.out.print("Em ordem: ");
 arvore.emOrdem(arvore.raiz);
 System.out.println();
-Saída (Em-Ordem):
+🖼️ Saída (Em-Ordem):
 <img width="1309" height="830" alt="Em ordem" src="https://github.com/user-attachments/assets/d41d0e8b-b0a7-4a68-8c66-31970a20be7b" />
-
 
 // Pós-Ordem
 System.out.print("Pos-ordem: ");
 arvore.posOrdem(arvore.raiz);
 System.out.println();
-Saída (Pós-Ordem):
+🖼️ Saída (Pós-Ordem):
 <img width="1309" height="830" alt="Pós-ordem" src="https://github.com/user-attachments/assets/6a854836-77c3-4cf9-b0d7-53c9bc874441" />
 
 ✍️ Autor
