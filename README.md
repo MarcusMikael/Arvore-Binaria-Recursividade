@@ -59,8 +59,9 @@ public class Main {
         System.out.println();
     }
 }
-Saída (Pré-Ordem):
-<img width="1309" height="830" alt="Pré-ordem" src="https://github.com/user-attachments/assets/32d22247-b766-4896-a2ba-072b25b001e5" />
+--Saída (Pré-Ordem):
+<img width="1309" height="830" alt="Pré-ordem" src="https://github.com/user-attachments/assets/fa67a284-0ebf-41ee-b594-ad4352c85df8" />
+
 
 // Em-Ordem
 System.out.print("Em ordem: ");
