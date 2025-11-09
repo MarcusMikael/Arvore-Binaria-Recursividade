@@ -29,9 +29,6 @@ src/
 ├── ArvoreBinaria.java
 └── Main.java
 
-csharp
-Copiar código
-
 ---
 
 ## 🧩 Implementação
@@ -80,6 +77,6 @@ System.out.println();
 ```
 🖼️ Saída (Pós-Ordem):
 <img width="1309" height="830" alt="Pós-ordem" src="https://github.com/user-attachments/assets/6a854836-77c3-4cf9-b0d7-53c9bc874441" />
-
+```
 ✍️ Autor
 Marcus Mikael Rodrigues 
