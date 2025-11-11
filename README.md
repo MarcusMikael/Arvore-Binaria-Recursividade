@@ -48,7 +48,11 @@ public class Main {
         arvore.inserir(14);
         arvore.inserir(4);
         arvore.inserir(7);
+```
+🖼️ Saída (Inserir):
+<img width="1309" height="830" alt="Inserir" src="https://github.com/user-attachments/assets/cd2d86eb-ef97-4a22-a209-6a05e02bdeb2" />
 
+```java
         System.out.println("Buscar o numero 10: " + arvore.buscar(10)); // Tem que retornar true.
         System.out.println("Buscar o numero 9: " + arvore.buscar(9));   // Vai retornar false, pois não existe esse valor.
 
